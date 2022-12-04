@@ -35,6 +35,7 @@
          :preserve-breaks t
          :org-html-validation-link nil
 
+         :html-head "<style>body{background-color:#d7dfed;}</style>"
          :html-link-home "https://dongdigua.github.io"
          :html-link-up "https://dongdigua.github.io/digua-YW"
          :html-postamble t
