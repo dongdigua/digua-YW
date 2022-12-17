@@ -35,7 +35,8 @@
          :preserve-breaks t
          :org-html-validation-link nil
 
-         :html-head "<style>body{background-color:#d7dfed;}</style>"
+         ;; add CSS in this way is useful for local view, though
+         :html-head "<link rel='stylesheet' type='text/css' href='../css/min.css'><link rel='stylesheet' type='text/css' href='css/min.css'>"
          :html-link-home "https://dongdigua.github.io"
          :html-link-up "https://dongdigua.github.io/digua-YW"
          :html-postamble t

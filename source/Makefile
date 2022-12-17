@@ -12,4 +12,4 @@ html:
 
 clean:
 	- rm ~/.org-timestamps/org-pages.cache
-	$(TARGET) | xargs -I {} rm {}
+	- $(TARGET) | xargs -I {} rm {}

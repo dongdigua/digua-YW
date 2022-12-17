@@ -1,10 +1,11 @@
 #+TITLE: 大概是语文知识整理
+#+DESCRIPTION: 高中语文是玄学吗?
 #+OPTIONS: toc:nil
 
 我认为语文知识适合电子版整理, 因为积累的知识特别碎, 而且资料分散
 创建这个仓库是为了我语文知识的整理, 也是为了分享给所有高中生, 共同进步!
 
-现在这个网站特别的简单
+现在这个网站特别的简单, 之后会慢慢丰富的 (｡･ω･｡)ﾉ
 
 * [[https://github.com/dongdigua/digua-YW][Tree]]
 ** 现代文
@@ -16,6 +17,14 @@
 - [[./作文/名人名言][名人名言]]
 ** 欢迎贡献
 但是会不会合并不一定
+
+* 格式
+** 标点
+我个人比较喜欢半角标点, 但是必要是还是得用全角
+** {1,2,3}
+#+BEGIN_SRC rust
+use std::fs::{self, OpenOptions, File};
+#+END_SRC
 
 * LICENCE
 © 2022-2024 dongdigua All Rights Reserved.
