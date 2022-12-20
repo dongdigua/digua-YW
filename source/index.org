@@ -20,11 +20,14 @@
 
 * 格式
 ** 标点
-我个人比较喜欢半角标点, 但是必要是还是得用全角
+我个人比较喜欢半角标点, 因为看起来比较正常(或者说饱满)
+但是必要是还是得用全角
 ** {1,2,3}
 #+BEGIN_SRC rust
 use std::fs::{self, OpenOptions, File};
 #+END_SRC
+** 括号
+括号一般都空一格, 不空则为一个词
 
 * LICENCE
 © 2022-2024 dongdigua All Rights Reserved.
