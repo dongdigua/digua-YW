@@ -30,10 +30,8 @@ jobs:
 
     - name: Build
       run: |
-        cd source
         make clean
         make
-        tree ../
 
     - name: Setup Pages
       uses: actions/configure-pages@v2
@@ -42,7 +40,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1
       with:
         # Upload entire repository
-        path: '.'
+        path: 'site'
 
     - name: Deploy to GitHub Pages
       id: deployment

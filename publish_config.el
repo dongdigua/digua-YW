@@ -29,7 +29,7 @@
       '(("org-pages"
          :base-directory "."
          :base-extension "org"
-         :publishing-directory "./../"
+         :publishing-directory "./site/"
          :recursive t
          :publishing-function org-html-publish-to-html
          :preserve-breaks t
